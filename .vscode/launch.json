@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - VmsFrontendUtilityServerApplication",
+      "request": "launch",
+      "mainClass": "vms.vmsfrontendutilityserver.VmsFrontendUtilityServerApplication",
+      "projectName": "vms-frontend-utility-server"
+    }
+  ]
+}
