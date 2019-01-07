@@ -8,17 +8,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@ToString
-@EqualsAndHashCode
+@Getter @Setter @NoArgsConstructor @ToString @EqualsAndHashCode
 public class MachineDTO {
 
   public int machineId;
   public String firmName;
   public String location;
   public Map<Integer, Integer> productSensor;
+  
 
   public MachineDTO(int machineId, String firmName, String location, Map<Integer, Integer> productSensor) {
     super();
@@ -26,5 +23,5 @@ public class MachineDTO {
     this.firmName = firmName;
     this.location = location;
     this.productSensor = productSensor;
-  }
+  	}
 }

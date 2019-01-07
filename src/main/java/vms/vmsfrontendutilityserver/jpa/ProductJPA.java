@@ -26,7 +26,7 @@ import vms.vmsfrontendutilityserver.dto.products.ProductDTO;
 public class ProductJPA {
 
   @Id
-  @GeneratedValue
+  @Column(name = "product_id")
   public int productId;
 
   @Column(name = "product_name", unique = true)

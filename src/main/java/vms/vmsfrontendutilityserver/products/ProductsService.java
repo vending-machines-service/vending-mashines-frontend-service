@@ -18,6 +18,7 @@ public class ProductsService implements IProducts {
   ProductsRepository productsRepo;
 
   @Override
+  @Transactional
   public boolean addProduct(ProductDTO product) {
     ProductJPA productJPA = product.toProductJPA();
     try {

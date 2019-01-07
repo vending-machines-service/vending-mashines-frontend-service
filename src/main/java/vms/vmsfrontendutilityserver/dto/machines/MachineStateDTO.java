@@ -17,17 +17,15 @@ public class MachineStateDTO {
 
   public int machineId;
   public Map<String, Integer> productsBoxes;// percentages
-  public int moneyBoxesRest; // percentages
-  public int moneyIncomeBoxes;// percentages
+  public Map<String, Integer> sensorsData;
   public MachineStateEnum state;
 
-  public MachineStateDTO(int machineId, Map<String, Integer> productsBoxes, int moneyBoxesRest, int moneyIncomeBoxes,
+  public MachineStateDTO(int machineId, Map<String, Integer> productsBoxes, Map<String, Integer> sensorsData,
       MachineStateEnum state) {
     super();
     this.machineId = machineId;
     this.productsBoxes = productsBoxes;
-    this.moneyBoxesRest = moneyBoxesRest;
-    this.moneyIncomeBoxes = moneyIncomeBoxes;
+    this.sensorsData = sensorsData;
     this.state = state;
   }
 

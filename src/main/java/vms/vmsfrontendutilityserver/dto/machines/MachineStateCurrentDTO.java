@@ -21,12 +21,12 @@ import vms.vmsfrontendutilityserver.dto.PersistanceConstants;
 public class MachineStateCurrentDTO {
 
   @Id
-  public int macineId;
+  public int machineId;
   public Map<Integer, Integer> sensorsData;
 
-  public MachineStateCurrentDTO(int macineId, Map<Integer, Integer> sensorsData) {
+  public MachineStateCurrentDTO(int machineId, Map<Integer, Integer> sensorsData) {
     super();
-    this.macineId = macineId;
+    this.machineId = machineId;
     this.sensorsData = sensorsData;
   }
 }

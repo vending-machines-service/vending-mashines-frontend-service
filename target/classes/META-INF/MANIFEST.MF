@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: vms-frontend-utility-server
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Yashchenko Elena
+Implementation-Vendor-Id: vms
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/vms-frontend-utility-server
+Created-By: Maven Integration for Eclipse
+
